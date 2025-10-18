@@ -1,3 +1,12 @@
+/*
+ * Sistema de Controle de Estoque (C#)
+ * Autor: Ryan [se quiser colocar o sobrenome]
+ * Descrição: Projeto de console simples para cadastrar, consultar,
+ * adicionar e remover produtos de um estoque, com validação de entrada.
+ * 
+ * Objetivo: Demonstrar uso de listas, loops, métodos e validação de dados
+ * com boas práticas de código e legibilidade.
+ */
 using System;
 
 namespace MeuProjeto
@@ -184,4 +193,5 @@ namespace MeuProjeto
         }
 
     }
+
 }
