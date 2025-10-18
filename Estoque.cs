@@ -1,6 +1,6 @@
 /*
  * Sistema de Controle de Estoque (C#)
- * Autor: Ryan [se quiser colocar o sobrenome]
+ * Autor: Ryan Ronald
  * Descrição: Projeto de console simples para cadastrar, consultar,
  * adicionar e remover produtos de um estoque, com validação de entrada.
  * 
@@ -195,3 +195,4 @@ namespace MeuProjeto
     }
 
 }
+
