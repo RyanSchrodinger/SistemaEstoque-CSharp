@@ -26,8 +26,8 @@ Demonstrar o uso de:
 
 ## 🧠 Estrutura do Projeto
 MeuProjeto/
-├── Estoque.cs // Classe principal: lógica do sistema e menu
-└── Tentar.cs // Classe auxiliar para validações de entrada
+├── Estoque.cs // Classe principal: lógica do sistema e menu  
+└── Tentar.cs // Classe auxiliar para validações de entrada  
 
 ---
 
