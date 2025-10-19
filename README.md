@@ -64,4 +64,4 @@ O projeto teve origem em um **algoritmo em Visualg**, depois reescrito e aprimor
 
 ## 📎 Autor
 Desenvolvido por **Ryan**  
-📫 [[adicione seu LinkedIn ou GitHub aqui](https://www.linkedin.com/in/ryan-ronald-a67768326/)]
+📫 [[Meu LinkedIn](https://www.linkedin.com/in/ryan-ronald-a67768326/)]
