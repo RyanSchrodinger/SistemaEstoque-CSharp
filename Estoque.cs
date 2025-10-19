@@ -43,12 +43,12 @@ namespace MeuProjeto
                 i += 1;
 
                 // Opção para parar o cadastro e ir para o menu
-                Console.Write("Deseja adicionar mais um produto? S/N:\n ");
+                Console.Write("Deseja adicionar mais um produto? S/N:");
                 string? simounao = Console.ReadLine();
 
                 if (simounao.Equals("n", StringComparison.OrdinalIgnoreCase))
                 {
-                    Console.WriteLine("");
+                    Console.Clear();
                     break;
 
                 }
@@ -59,6 +59,7 @@ namespace MeuProjeto
             int opcao;
             do
             {
+                
                 Console.WriteLine("-----MENU DO ESTOQUE----");
                 Console.WriteLine("1 - Verificar produto");
                 Console.WriteLine("2 - Adicionar ao estoque ");
@@ -73,7 +74,7 @@ namespace MeuProjeto
                 {
                     // Chamando funções para opcao escolhida 
                     case 1:
-                        Verificarprodutos(produtos, valor_produto, quantidade);
+                        VerificarProdutos(produtos, valor_produto, quantidade);
                         break;
                     case 2:
                         AdicionarProduto(produtos, quantidade, senhaCerta);
@@ -96,7 +97,7 @@ namespace MeuProjeto
         }
 
         // Método que mostra um produto específico de acordo com que o usuário digitou   
-        static void Verificarprodutos(List<string> produtos, List<double> valor_produto, List<int> quantidade)
+        static void VerificarProdutos(List<string> produtos, List<double> valor_produto, List<int> quantidade)
         {
             Console.Write("Digite o nome do produto que você deseja ver: ");
             string? nomePro = Console.ReadLine();
@@ -128,14 +129,12 @@ namespace MeuProjeto
                 {
 
                     localizar = 1;
-                    Console.WriteLine("Digite quantidade desejada: ");
-                    int quantida = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Confirme com a senha da gerencia para adicionar:\n ");
-                    int senha = int.Parse(Console.ReadLine());
+                    int quantida = Tentar.VerificarInt("Digite quantidade desejada: ");
+                    int senha = Tentar.VerificarInt("Confirme com a senha da gerencia para adicionar: ");
                     if (senha.Equals(senhaCerta))
                     {
                         quantidade[i] += quantida;
-                        Console.WriteLine("Adicionado ao estoque");
+                        Console.WriteLine("Adicionado ao estoque\n");
                     }
                     else
                     {
@@ -162,10 +161,9 @@ namespace MeuProjeto
                 {
 
                     localizar = 1;
-                    Console.WriteLine("Digite quantidade desejada: ");
-                    int quantida = int.Parse(Console.ReadLine());
-                    Console.WriteLine("Confirme com a senha da gerencia para remover:\n ");
-                    int senha = int.Parse(Console.ReadLine());
+
+                    int quantida = Tentar.VerificarInt("Digite quantidade desejada: ");
+                    int senha = Tentar.VerificarInt("Confirme com a senha da gerencia para remover: ");
                     if (senha.Equals(senhaCerta) && quantidade[i] >= quantida)
                     {
                         quantidade[i] -= quantida;
@@ -187,12 +185,10 @@ namespace MeuProjeto
             for(int i = 0; i < produtos.Count; i++)
             {
                 Console.WriteLine($"{i + 1}° Produto: {produtos[i]}");
-                Console.WriteLine($"Valor do {i+1}° produto: {valor_produto[i]}");
+                Console.WriteLine($"Valor do {i+1}° produto: R${valor_produto[i]}");
                 Console.WriteLine($"Quantidade no do {i+1}° produto: {quantidade[i]}\n");
             }
         }
 
     }
-
 }
-
