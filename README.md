@@ -52,7 +52,7 @@ A senha padrão para adicionar/remover produtos é **31415**.
 ---
 
 ## 🧩 Histórico
-O projeto teve origem em um **algoritmo em Portugol**, depois reescrito e aprimorado em **C#** com uso de métodos e listas.
+O projeto teve origem em um **algoritmo em Visualg**, depois reescrito e aprimorado em **C#** com uso de métodos e listas.
 
 ---
 
@@ -64,4 +64,4 @@ O projeto teve origem em um **algoritmo em Portugol**, depois reescrito e aprimo
 
 ## 📎 Autor
 Desenvolvido por **Ryan**  
-📫 [adicione seu LinkedIn ou GitHub aqui]
+📫 [[adicione seu LinkedIn ou GitHub aqui](https://www.linkedin.com/in/ryan-ronald-a67768326/)]
