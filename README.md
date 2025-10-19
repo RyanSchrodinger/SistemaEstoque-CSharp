@@ -32,25 +32,16 @@ MeuProjeto/
 ---
 
 ## 🖥️ Exemplo de Execução
-
 Digite o nome do 1° produto: Café
-
 Digite o valor do 1° produto: R$10
-
 Digite a quantidade no estoque: 50
-
 Deseja adicionar mais um produto? S/N: n
 
 ----- MENU DO ESTOQUE ----
-
 1 - Verificar produto
-
 2 - Adicionar ao estoque
-
 3 - Remover do estoque
-
 4 - Listar todos os produtos
-
 0 - Sair
 
 ---
