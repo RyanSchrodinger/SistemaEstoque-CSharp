@@ -29,7 +29,7 @@ MeuProjeto/
 ├── Estoque.cs // Classe principal: lógica do sistema e menu
 └── Tentar.cs // Classe auxiliar para validações de entrada
 
----
+'''
 
 ## 🖥️ Exemplo de Execução
 Digite o nome do 1° produto: Café
@@ -44,7 +44,7 @@ Deseja adicionar mais um produto? S/N: n
 4 - Listar todos os produtos
 0 - Sair
 
----
+'''
 
 ## 🔒 Senha de Gerência
 A senha padrão para adicionar/remover produtos é **31415**.
