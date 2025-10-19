@@ -58,7 +58,7 @@ O projeto teve origem em um **algoritmo em Portugol**, depois reescrito e aprimo
 
 ## 🏷️ Tecnologias
 - Linguagem: **C#**
-- Ambiente: **.NET Console Application**
+- Ambiente: **Visual Studio Code
 
 ---
 
